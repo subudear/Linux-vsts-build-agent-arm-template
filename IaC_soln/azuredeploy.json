@@ -175,7 +175,7 @@
 					"fileUris": [
 						"https://store1.blob.core.windows.net/agent/Ubuntu-vstsbuildagent-install.sh"
 					],
-					"commandToExecute": "[concat('sh full-vstsbuild-install.sh',' ',parameters('VSTSAccount'),' ',parameters('PersonalAccessToken'),' ',concat('\"', parameters('poolName'),'\"'),' ',parameters('vmName'),' ',parameters('vmAdminUserName'))]"
+					"commandToExecute": "[concat('sh Ubuntu-vstsbuildagent-install.sh',' ',parameters('VSTSAccount'),' ',parameters('PersonalAccessToken'),' ',concat('\"', parameters('poolName'),'\"'),' ',parameters('vmName'),' ',parameters('vmAdminUserName'))]"
 				},
 				"publisher": "Microsoft.Azure.Extensions",
 				"type": "CustomScript",
